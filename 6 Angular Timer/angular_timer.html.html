@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Using Angular</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+
+<body ng-app="myApp" align="center" style="margin-top: 150px; font-size: 40px; color: red; font-weight: bold;">
+    <div ng-controller="firstController">
+        {{ "Time: " + time }} <br />
+        <button ng-click="test()" style="border-radius: 9%;"> Show Time </button>
+    </div>
+
+    <script>
+        var myApp = angular.module("myApp", []);
+
+        myApp.controller("firstController", function ($scope, $interval) {
+
+            $scope.test = function () {
+                $interval(function () {
+                    $scope.time = new Date().toLocaleTimeString();
+                }, 1000);
+
+            }
+        });
+
+    </script>
+</body>
+
+</html>

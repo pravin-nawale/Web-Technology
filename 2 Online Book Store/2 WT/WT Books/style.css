@@ -1,0 +1,73 @@
+*{
+    font-family:sans-serif;
+}
+
+.centerElement{
+    text-align: center;
+}
+
+/* Navbar */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  /* Submit Button */
+  .btn{
+    height: 27px;
+    width: 92px;
+    color: #000000;
+    background-color: #ff9900;
+    border: none;
+    font-size: large;
+    
+  } 
+
+  .btn:hover {
+    background-color: #e27b37;
+  }
+
+
+  /* Login Page */
+  .loginPage{
+    border: 2px solid black;
+    height: 250px;
+    width: 500px;
+    margin-left: 450px;
+  }
+
+  .input{
+    margin-top: 60px;
+    margin-left: 100px;
+  }
+
+
+  /* Registraction Page*/
+
+
+.form{
+    border: 2px solid black;
+    height: 400px;
+    width: 500px;
+    margin-left: 450px;
+    margin-top: 50px;
+  }
+
+  .input{
+    margin-top: 50px;
+    margin-left: 100px;
+  }

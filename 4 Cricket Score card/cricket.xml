@@ -1,0 +1,81 @@
+<scorecard>
+    <match>
+        <Date>12/10/2023</Date>
+
+        <umpires>
+            <umpire>Gerard Abood</umpire>
+            <umpire>Faisal Afridi</umpire>
+        </umpires>
+
+        <Match_Type>One Day</Match_Type>
+        <over>50-50</over>
+        <target>220</target>
+
+        <players>
+            <Team_Name>India</Team_Name>
+            <player_name>Shubman Gill</player_name>
+            <player_name>Virat Kohli</player_name>
+            <player_name>Rohit Sharma</player_name>
+            <player_name>Ravindra Jadeja</player_name>
+            <player_name>Hardik Pandya</player_name>
+            <player_name>Ravichandran Ashwin</player_name>
+            <player_name>Kuldeep Yadav</player_name>
+            <player_name>Suryakumar Yadav</player_name>
+            <player_name>Jasprit Bumrah</player_name>
+            <player_name>Shreyas Iyer</player_name>
+            <player_name> Ishan Kishan</player_name>
+        </players>
+        <players>
+            <Team>Australia</Team>
+            <player_name>David Warner</player_name>
+            <player_name>Marnus Labuschagne</player_name>
+            <player_name>Steven Smith</player_name>
+            <player_name>Travis Head</player_name>
+            <player_name>Cameron Green</player_name>
+            <player_name>Glenn Maxwell</player_name>
+            <player_name>Marcus Stoinis</player_name>
+            <player_name>Sean Abbott</player_name>
+            <player_name>Josh Reginald</player_name>
+            <player_name>Patrick Cummins</player_name>
+            <player_name>Mitchell Starc</player_name>
+        </players>
+    </match>
+    <match>
+        <Dates>14-Dec-2022</Dates>
+        <umpires>
+            <umpire>WR Knights</umpire>
+            <umpire>Ram Shasri</umpire>
+        </umpires>
+        <match_name>Test</match_name>
+        <over>No Limit</over>
+        <target>Running</target>
+        <players>
+            <Team>India</Team>
+            <player_name>Shubman Gill</player_name>
+            <player_name>Virat Kohli</player_name>
+            <player_name>Rohit Sharma</player_name>
+            <player_name>Ravindra Jadeja</player_name>
+            <player_name>Hardik Pandya</player_name>
+            <player_name>Ravichandran Ashwin</player_name>
+            <player_name>Kuldeep Yadav</player_name>
+            <player_name>Suryakumar Yadav</player_name>
+            <player_name>Jasprit Bumrah</player_name>
+            <player_name>Shreyas Iyer</player_name>
+            <player_name>Ishan Kishan</player_name>
+        </players>
+        <players>
+            <Team>Pakistan</Team>
+            <player_name>Babber Azam</player_name>
+            <player_name>Fakhar Zaman</player_name>
+            <player_name>Shadab Khan</player_name>
+            <player_name>Shahid Afridi</player_name>
+            <player_name>Shaheen Shah Afridi</player_name>
+            <player_name>Shoaib Malik</player_name>
+            <player_name>Imad Wasim</player_name>
+            <player_name>Imran Khan</player_name>
+            <player_name>Hasan Ali</player_name>
+            <player_name>Grant Bradburn</player_name>
+            <player_name>Aggan Kureshi</player_name>
+        </players>
+    </match>
+</scorecard>

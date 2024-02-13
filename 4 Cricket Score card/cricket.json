@@ -1,0 +1,98 @@
+{
+    "scorecard": {
+        "match": [
+            {
+                "Date": "12/10/2023",
+                "umpires": {
+                    "umpire": [
+                        "Gerard Abood",
+                        "Faisal Afridi"
+                    ]
+                },
+                "Match_Type": "One Day",
+                "over": "50-50",
+                "target": 220,
+                "players": [
+                    {
+                        "Team_Name": "India",
+                        "player_name": [
+                            "Shubman Gill",
+                            "Virat Kohli",
+                            "Rohit Sharma",
+                            "Ravindra Jadeja",
+                            "Hardik Pandya",
+                            "Ravichandran Ashwin",
+                            "Kuldeep Yadav",
+                            "Suryakumar Yadav",
+                            "Jasprit Bumrah",
+                            "Shreyas Iyer",
+                            "Ishan Kishan"
+                        ]
+                    },
+                    {
+                        "Team": "Australia",
+                        "player_name": [
+                            "David Warner",
+                            "Marnus Labuschagne",
+                            "Steven Smith",
+                            "Travis Head",
+                            "Cameron Green",
+                            "Glenn Maxwell",
+                            "Marcus Stoinis",
+                            "Sean Abbott",
+                            "Josh Reginald",
+                            "Patrick Cummins",
+                            "Mitchell Starc"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Dates": "14-Dec-2022",
+                "umpires": {
+                    "umpire": [
+                        "WR Knights",
+                        "Ram Shasri"
+                    ]
+                },
+                "match_name": "Test",
+                "over": "No Limit",
+                "target": "Running",
+                "players": [
+                    {
+                        "Team": "India",
+                        "player_name": [
+                            "Shubman Gill",
+                            "Virat Kohli",
+                            "Rohit Sharma",
+                            "Ravindra Jadeja",
+                            "Hardik Pandya",
+                            "Ravichandran Ashwin",
+                            "Kuldeep Yadav",
+                            "Suryakumar Yadav",
+                            "Jasprit Bumrah",
+                            "Shreyas Iyer",
+                            "Ishan Kishan"
+                        ]
+                    },
+                    {
+                        "Team": "Pakistan",
+                        "player_name": [
+                            "Babber Azam",
+                            "Fakhar Zaman",
+                            "Shadab Khan",
+                            "Shahid Afridi",
+                            "Shaheen Shah Afridi",
+                            "Shoaib Malik",
+                            "Imad Wasim",
+                            "Imran Khan",
+                            "Hasan Ali",
+                            "Grant Bradburn",
+                            "Aggan Kureshi"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

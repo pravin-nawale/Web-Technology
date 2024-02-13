@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Validations</title>
+    <!-- <script src="../Validation/index.js"></script> -->
+
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            margin-left: 500px;
+            margin-top: 100px;
+        }
+
+        /* inputField */
+        .inputField {
+            background-color: #b7e4c7;
+            border: 2px solid black;
+            height: 240px;
+            width: 245px;
+            margin-left: -40px;
+            padding-top: 35px;
+            padding-left: 45px;
+        }
+
+        /* Submit Button */
+
+        #submit {
+            margin-left: 56px;
+            margin-top: 5px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="myform">
+        <div class="container">
+            <h2 style=" background:repeating-linear-gradient(to right, #da547c, #8333a8); width: 213px; color:black;">
+                Registration Page
+            </h2>
+            <div class="inputField">
+                <input type="text" placeholder="First Name" name="firstName"> <br> <br>
+                <input type="password" placeholder="Password" name="password"> <br> <br>
+                <input type="email" placeholder="Email" name="email"> <br> <br>
+                <input type="number" placeholder="Mobile Number" name="mobileno"> <br> <br>
+                <input type="text" placeholder="Last Name & Address" name="lastNameAdr"> <br> <br>
+                <button type="submit" id="submit" onclick="formValidation()">Submit</button>
+            </div>
+        </div>
+    </form>
+
+    <script>
+
+
+
+
+        function formValidation() {
+            // First Name
+            var firstName = document.myform.firstName.value;
+
+            if (firstName === "" || firstName == null) {
+                alert("Please Enter Your Name");
+            }
+
+            // Password 
+
+            var password = document.myform.password.value;
+
+            if (password.length > 0 && password.length < 6) {
+                alert("Password Must Be Greater Than 6 Characters.")
+            }
+
+            // Email
+
+            var email = document.myform.email.value;
+
+            if (email == "") {
+                alert("Enter Your Email Address");
+            }
+
+            // Mobile No
+
+            var mobileno = document.myform.mobileno.value;
+            if (mobileno.length != 10) {
+                alert("Mobile Number Should Contain 10 Digits");
+            }
+
+            // Address And Last Name
+
+            var lastNameAdr = document.myform.lastNameAdr.value;
+            if (lastNameAdr === "" || lastNameAdr == null) {
+                alert("Last Name And Address should Not Be Empty");
+            }
+
+            
+           
+        }
+
+    </script>
+</body>
+
+</html>
